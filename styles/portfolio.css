@@ -6,7 +6,11 @@
 .text-primary {
   color: #fd6e0a;
 }
+.button {
+  display: flex;
 
+  gap: 24px;
+}
 .btn-primary {
   color: #ffffff;
   font-weight: 700;
@@ -16,6 +20,17 @@
   height: 64px;
   border-radius: 5px;
   background: #fd6e0a;
+}
+
+.btn-contact {
+  color: #fd6e0a;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px;
+  height: 64px;
 }
 
 .header {
